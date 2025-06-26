@@ -1,6 +1,6 @@
 sample,fasta
 E_coli,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/bacterial/GCF_000091005.1_ASM9100v1_genomic.fasta
-S_aureus,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/s/genomeannotation/assemblies/bacterial/GCF_000013425.1_ASM1342v1_genomic.fasta
+S_aureus,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/bacterial/GCF_000013425.1_ASM1342v1_genomic.fasta
 C_albicans,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/fungal/GCF_000182965.3_ASM18296v3_genomic.fasta
 A_fumigatus,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/fungal/GCF_000002655.1_ASM265v1_genomic.fasta
 SARS-CoV-2,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/viral/GCA_009858895.3_ASM985889v3_genomic.fasta
