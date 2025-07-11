@@ -1,3 +1,3 @@
-sample,fasta,organism
-E_coli,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/bacterial/GCF_000091005.1_ASM9100v1_genomic.fasta,Escherichia
-S_aureus,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/bacterial/GCF_000013425.1_ASM1342v1_genomic.fasta,Staphylococcus_aureus
+sample,fastq_1,fastq_2,fasta,organism
+E_coli,,,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/bacterial/GCF_000091005.1_ASM9100v1_genomic.fasta,Escherichia
+S_aureus,,,https://raw.githubusercontent.com/EIT-Pathogena-Bioinformatics/test-datasets/genomeannotation/assemblies/bacterial/GCF_000013425.1_ASM1342v1_genomic.fasta,Staphylococcus_aureus
