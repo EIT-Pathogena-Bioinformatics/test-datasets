@@ -1,0 +1,11 @@
+process {
+    withName: 'FILTERRUNINFO' {
+        ext.args   = "--LibraryStrategy WGS"
+    }
+
+    withName:'SRATOOLS_FASTERQDUMP'{
+        cpus   = { 6     * task.attempt }
+        memory = { 12.GB * task.attempt }
+        time   = { 4.h   * task.attempt }
+    }
+}
