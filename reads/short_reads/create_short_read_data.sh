@@ -14,7 +14,5 @@ mamba create -n rasusa -c bioconda rasusa # rasusa=2.2.2
 mamba activate rasusa
 
 #Downsample to 10,000,000 bases (~2x coverage) to reduce filesize
-for f in *.gz; 
-    do rasusa reads -b 10000000 -s 1 ${f} > tmp;
-    mv tmp ${f};
-done
+rasusa reads -b 10000000 -s 1 sample1_R1.fastq.gz sample1_R2.fastq.gz -o sample1_R1.fq.gz -o sample1_R2.fq.gz
+rasusa reads -b 10000000 -s 1 sample3_R1.fastq.gz sample3_R2.fastq.gz -o sample3_R1.fq.gz -o sample3_R2.fq.gz
