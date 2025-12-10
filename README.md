@@ -48,4 +48,7 @@ rm -rf fastq_fail/barcode07
 
 # add some barcode dirs for robustness checking
 cp -r fastq_fail/barcode01 fastq_fail/barcode11
+
+# Reformat - all fastq data was on one line
+bash process_reads.sh
 ```
