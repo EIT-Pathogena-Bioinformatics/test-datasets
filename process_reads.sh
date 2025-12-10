@@ -1,4 +1,4 @@
-find . \
+find ont_dummy_dir \
   -type f \( -name "*.fastq.gz" -o -name "*.fq.gz" \) -print0 |
 while IFS= read -r -d '' fqgz; do
   echo "Processing: $fqgz"
