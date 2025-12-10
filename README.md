@@ -13,17 +13,8 @@ cd ont_dummy_dir
 mkdir fastq_pass
 mkdir fastq_fail
 
-wget https://github.com/nf-core/test-datasets/raw/bacass/nanopore/A1403KPN.fq.gz
-
-zcat A1403KPN.fq.gz \
-  | paste - - - - \
-  | head -n 21 \
-  | awk '{print > ("read_" NR ".fastq")}'
-
-rm A1403KPN.fq.gz
-
 # Reformat - all fastq data was on one line
-bash process_reads.sh
+bash ../generate_reads.sh 21
 
 mkdir {fastq_pass,fastq_fail}/barcode01
 mkdir {fastq_pass,fastq_fail}/barcode03
