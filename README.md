@@ -8,7 +8,7 @@ Making the ont_dummy_dir
 ```
 mkdir ont_dummy_dir
 
-cd ont_dummy dir
+cd ont_dummy_dir
 
 mkdir fastq_pass
 mkdir fastq_fail
@@ -19,6 +19,8 @@ zcat A1403KPN.fq.gz \
   | paste - - - - \
   | head -n 21 \
   | awk '{print > ("read_" NR ".fastq")}'
+
+rm A1403KPN.fq.gz
 
 for f in *.fastq; do gzip $f; done
 
