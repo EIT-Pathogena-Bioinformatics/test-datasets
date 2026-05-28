@@ -1,0 +1,7 @@
+kmer	reads_count	assembly_count	in_assembly
+AAAAA	2	1	true
+AAAAC	1	1	true
+AAAAG	1	0	false
+AGGGG	1	0	false
+CCCCC	2	0	false
+GGGGA	1	0	false
